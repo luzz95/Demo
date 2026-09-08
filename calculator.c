@@ -1,4 +1,4 @@
-// code chnages added
+// code added to the branch
 int p(int x,int y,int z)
 {
 if(z == 1)
