@@ -1,4 +1,4 @@
-// code added
+// code chnages added
 int p(int x,int y,int z)
 {
 if(z == 1)
