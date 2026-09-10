@@ -4,7 +4,7 @@ FUNCTION Is_Discounted_Price_Rounded (
 IS
    disc_price_rounded_ BOOLEAN := FALSE;
    use_price_incl_tax_ CUSTOMER_ORDER_TAB.use_price_incl_tax%TYPE;
-   
+   // CUSTOMER_ORDER_TAB added in the cursor
    CURSOR get_disc_price_rounded IS
       SELECT use_price_incl_tax
       FROM   CUSTOMER_ORDER_TAB
