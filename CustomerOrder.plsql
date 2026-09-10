@@ -1,3 +1,4 @@
+// this function is regarding rounded price
 FUNCTION Is_Discounted_Price_Rounded (
    order_no_     IN VARCHAR2 ) RETURN BOOLEAN
 IS
